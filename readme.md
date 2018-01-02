@@ -22,6 +22,8 @@ You will need to have installed:
 - Node v7 or higher
 - Rattletrap
 
+After cloning the repo, run `npm install` to install the dependencies.
+
 To start the dataset generation process, simply run `node index.js`.
 
 Some values to consider changing before running (there are no command line arguments yet):
