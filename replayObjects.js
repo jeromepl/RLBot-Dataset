@@ -12,7 +12,7 @@ class RigidBody {
     setState(state) {
         Object.assign(this.state.location, state.location);
         Object.assign(this.state.rotation, state.rotation);
-        Object.assign(this.state.linear_velocity, state);
+        Object.assign(this.state.linear_velocity, state.linear_velocity);
         Object.assign(this.state.angular_velocity, state.angular_velocity);
     }
 
